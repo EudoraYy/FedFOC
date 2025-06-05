@@ -1,0 +1,24 @@
+python main.py --rounds=200 \
+        --num_users=100 \
+        --frac=0.1 \
+        --local_ep=10 \
+        --local_bs=10 \
+        --lr=0.01 \
+        --momentum=0.5 \
+        --model=simple-cnn \
+        --dataset=cifar10 \
+        --datadir=./data/data \
+        --logdir=./logs/ \
+        --savedir=./save_results/ \
+        --partition=Dir \
+        --beta=0.1 \
+        --alg='fedfoc' \
+        --local_view \
+        --nclusters=3 \
+        --nclasses=10 \
+        --nsamples_shared=100 \
+        --print_freq=10 \
+        --num_perm=2 \
+        --num=2 \
+        --weight_distance=0.5 \
+        --gpu=1
