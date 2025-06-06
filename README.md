@@ -22,7 +22,7 @@ For WM-811K datase: [MIR-WM811K](http://mirlab.org/dataSet/public/), Run the fol
 python wm811k-process.py
 ```
 
-We provide scripts to run the algorithms, which are put under `scripts/`. Here is an example to run the script:
+We provide a script to run the FedFOC algorithm, which is put under `scripts/`. Here is an example to run the script:
 ```
 bash scripts/fedfoc.sh
 ```
