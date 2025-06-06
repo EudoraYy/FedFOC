@@ -14,7 +14,7 @@ conda activate fedfoc
 Generate distributed datasets **[The default parameters in options_cluster.py can be modified as needed]**
 ```
 cd FedFOC
-python generate_data,py
+python generate_data.py
 ```
 
 For WM-811K datase: [tMIR-WM811K](http://mirlab.org/dataSet/public/), Run the following command to process it
