@@ -17,7 +17,7 @@ cd FedFOC
 python generate_data.py
 ```
 
-For WM-811K datase: [tMIR-WM811K](http://mirlab.org/dataSet/public/), Run the following command to process it
+For WM-811K datase: [MIR-WM811K](http://mirlab.org/dataSet/public/), Run the following command to process it
 ```
 python wm811k-process.py
 ```
